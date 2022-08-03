@@ -8,9 +8,9 @@ http:
           - main: "docker.localhost"
             sans:
               - "*.docker.localhost"
-          - main: "testfact.local"
+          - main: "domain.local"
             sans:
-              - "*.testfact.local"
+              - "*.domain.local"
 
 tls:
   certificates:
