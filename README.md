@@ -78,3 +78,6 @@ networks:
 
 ### Running container
 `docker-compose up -d`
+
+### Web interface
+`https://traefik.docker.localhost/`
