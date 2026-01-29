@@ -1,6 +1,6 @@
 services:
   traefik:
-    image: traefik:latest
+    image: traefik:v3.6.1
     container_name: traefik
     labels:
       - "traefik.enable=true"
